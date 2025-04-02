@@ -1,7 +1,6 @@
 ---
-layout: ../../layouts/MarkdownPost.astro
-title: Mi Cuarta Publicación en el Blog
-author: Astro Learner
+title: Mi Cuarto Post en el Blog
+author: Astro Aprendiz
 description: "¡Esta publicación aparecerá por sí sola!"
 image:
     url: "https://docs.astro.build/default-og-image.png"
@@ -9,4 +8,5 @@ image:
 pubDate: 2022-08-08
 tags: ["astro", "éxitos"]
 ---
+
 Esta publicación debería aparecer junto con mis otras publicaciones del blog, porque `import.meta.glob()` está devolviendo una lista de todas mis publicaciones para crear mi lista.
