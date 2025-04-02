@@ -1,4 +1,5 @@
 ---
+layout: ../../layouts/MarkdownPost.astro
 title: 'Explorando Componentes en Astro'
 pubDate: 2022-07-08
 description: 'En este post, profundizamos en cómo usar componentes en Astro.'

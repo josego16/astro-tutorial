@@ -1,11 +1,12 @@
 ---
-title: "Publicación 3"
-date: "2023-10-06"
-description: "Una breve descripción de la Publicación 4."
+layout: ../../layouts/MarkdownPost.astro
+title: Mi Cuarta Publicación en el Blog
+author: Astro Learner
+description: "¡Esta publicación aparecerá por sí sola!"
+image:
+    url: "https://docs.astro.build/default-og-image.png"
+    alt: "La palabra astro sobre una ilustración de planetas y estrellas."
+pubDate: 2022-08-08
+tags: ["astro", "éxitos"]
 ---
-
-## Publicación 3
-
-¡Bienvenido a la Publicación 4! Este es otro paso en tu viaje como bloguero.
-
-Siéntete libre de expandir esta publicación con ideas interesantes, visuales o enlaces para mantener a tus lectores interesados.
+Esta publicación debería aparecer junto con mis otras publicaciones del blog, porque `import.meta.glob()` está devolviendo una lista de todas mis publicaciones para crear mi lista.
